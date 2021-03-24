@@ -1,7 +1,7 @@
 project_name: "ecommerce"
 
 application: ef_kthub_lab {
-  label: "Kitchen sink"
+  label: "My First Extension"
   url: "http://localhost:8080/bundle.js"
   entitlements: {
     local_storage: yes
