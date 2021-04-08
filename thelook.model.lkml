@@ -12,11 +12,13 @@ datagroup: ecommerce_etl {
   max_cache_age: "24 hours"
 }
 
-persist_with: ecommerce_etl
+ persist_with: ecommerce_etl
 ############ Base Explores #############
 
 explore: order_items {
   label: "(1) Orders, Items and Users"
+
+
   view_name: order_items
 
   join: order_facts {
